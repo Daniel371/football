@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "build/football-ccc28",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
